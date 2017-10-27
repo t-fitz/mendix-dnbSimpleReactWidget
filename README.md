@@ -1,6 +1,6 @@
 # Mendix Simple React Widget - Hello World
 
-A simple Mendix 7 widget using React and Webpack (based on the MendixLabs [Range Slider](https://github.com/mendixlabs/range-slider) widget.
+A simple Mendix 7 widget using React and Webpack (based on the MendixLabs [Range Slider](https://github.com/mendixlabs/range-slider) widget).
 
 ## Features
 * Simple widget containing a single React component that takes a string.
