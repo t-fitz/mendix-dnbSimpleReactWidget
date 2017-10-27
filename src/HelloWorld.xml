@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="com.mendix.widget.custom.HelloWorld.HelloWorld" needsEntityContext="true" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>HelloWorld</name>
+    <description>Hello World Example</description>
+    <icon></icon>
+    <properties>
+
+        <property key="messageAttribute" type="attribute">
+            <caption>Message attribute</caption>
+            <category>Data source</category>
+            <description>Holds the string value of the message</description>
+            <attributeTypes>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>
+
+        <property key="defaultMessage" type="string" required="true" defaultValue="Hello World">
+            <caption>Tooltip text</caption>
+            <category>Appearance</category>
+            <description>Text to show when Message attribute is empty</description>
+        </property>
+
+        <property key="onChangeMicroflow" type="microflow" required="false">
+            <caption>On change microflow</caption>
+            <category>Events</category>
+            <description>Called when the message is clicked</description>
+            <returnType type="Void"/>
+        </property>
+        
+    </properties>
+</widget>
